@@ -24,18 +24,6 @@ def available_models():
             "modelId": "TohidaRehman/bart-base-Abstract-Title-CSPubSum",
             "displayName": "bart-base-Abstract-Title-CSPubSum",
         },
-        {
-            "modelId": "czearing/article-title-generator",
-            "displayName": "article-title-generator",
-        },
-        {
-            "modelId": "AryanLala/autonlp-Scientific_Title_Generator-34558227",
-            "displayName": "autonlp-Scientific_Title_Generator-34558227",
-        },
-        {
-            "modelId": "Fabby/gpt2-english-light-novel-titles",
-            "displayName": "gpt2-english-light-novel-titles",
-        },
     ]
 
     return {"models": available_models_list}
