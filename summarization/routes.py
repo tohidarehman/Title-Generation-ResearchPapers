@@ -9,19 +9,19 @@ api_router = fastapi.APIRouter(prefix="/api")
 def available_models():
     available_models_list = [
         {
-            "modelId": "TohidaRehman/pegasus-large-Abstract-Title-CSPubSum",
+            "modelId": "TRnlp/pegasus-large-Abstract-Title-CSPubSum",
             "displayName": "pegasus-large-Abstract-Title-CSPubSum",
         },
         {
-            "modelId": "TohidaRehman/Llama-3-8b-Abstract-Title-CSPubSum",
+            "modelId": "TRnlp/Llama-3-8b-Abstract-Title-CSPubSum",
             "displayName": "Llama-3-8b-Abstract-Title-CSPubSum",
         },
         {
-            "modelId": "TohidaRehman/t5-base-Abstract-Title",
+            "modelId": "TRnlp/t5-base-Abstract-Title",
             "displayName": "t5-base-Abstract-Title",
         },
         {
-            "modelId": "TohidaRehman/bart-base-Abstract-Title-CSPubSum",
+            "modelId": "TRnlp/bart-base-Abstract-Title-CSPubSum",
             "displayName": "bart-base-Abstract-Title-CSPubSum",
         },
     ]
