@@ -8,14 +8,14 @@ api_router = fastapi.APIRouter(prefix="/api")
 @api_router.get("/available-models")
 def available_models():
     available_models_list = [
-        #{
-            #"modelId": "TRnlp/pegasus-large-Abstract-Title-CSPubSum",
-            #"displayName": "pegasus-large-Abstract-Title-CSPubSum",
-       # },
         {
-            "modelId": "TRnlp/Llama-3-8b-Abstract-Title-CSPubSum",
-            "displayName": "Llama-3-8b-Abstract-Title-CSPubSum",
+            "modelId": "TRnlp/pegasus-large-Abstract-Title-CSPubSum",
+            "displayName": "pegasus-large-Abstract-Title-CSPubSum",
         },
+        #{
+            #"modelId": "TRnlp/Llama-3-8b-Abstract-Title-CSPubSum",
+            #"displayName": "Llama-3-8b-Abstract-Title-CSPubSum",
+        #},
         {
             "modelId": "TRnlp/t5-base-Abstract-Title",
             "displayName": "t5-base-Abstract-Title",
