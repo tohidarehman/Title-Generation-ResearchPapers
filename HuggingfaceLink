@@ -1,1 +1,11 @@
+#To access fine-tuned models specifically for generating titles from research paper abstracts on Hugging Face, you can visit our model hub.
+
+1. https://huggingface.co/TRnlp
+2. https://huggingface.co/TRnlp/t5-base-Abstract-Title
+3. https://huggingface.co/TRnlp/bart-base-Abstract-Title-CSPubSum
+4. https://huggingface.co/TRnlp/pegasus-large-Abstract-Title-CSPubSum
+5. https://huggingface.co/TRnlp/Llama-3-8b-Abstract-Title-CSPubSum
+
+#To access our contributed dataset, LREC-COLING-2024, specifically for generating titles from research paper abstracts on Hugging Face, you can visit our Hugging Face hub
+1. https://huggingface.co/datasets/TRnlp/LREC-COLING-2024-Abstract-Title
 
