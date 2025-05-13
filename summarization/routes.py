@@ -17,8 +17,8 @@ def available_models():
             #"displayName": "Llama-3-8b-Abstract-Title-CSPubSum",
         #},
         {
-            "modelId": "TRnlp/t5-base-Abstract-Title",
-            "displayName": "t5-base-Abstract-Title",
+            "modelId": "TRnlp/t5-base-Abstract-Title-CSPubSum",
+            "displayName": "t5-base-Abstract-Title-CSPubSum",
         },
         {
             "modelId": "TRnlp/bart-base-Abstract-Title-CSPubSum",
