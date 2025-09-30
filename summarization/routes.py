@@ -58,8 +58,7 @@ def summarize(request: SummarizationRequest):
 
     try:
         generated_text = llm_client.text_generation(
-            model=model_name,
-            #prompt=text_with_prefix, TR as on 30/09/2025
+            model=model_name,            
             inputs=text_with_prefix,
             max_new_tokens=maximum_tokens,
             do_sample=False,
