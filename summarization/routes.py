@@ -1,6 +1,6 @@
 import fastapi, fastapi.responses
 import huggingface_hub, pydantic, os
-
+from huggingface_hub import InferenceClient
 
 api_router = fastapi.APIRouter(prefix="/api")
 
@@ -50,15 +50,15 @@ def summarize(request: SummarizationRequest):
     if authorization_token is None:
         return {"output": "no authorization token provided. contact administrator."}
 
-    llm_client = huggingface_hub.InferenceClient(
-        #model=model_name, TR as on 30/09/2025
+    llm_client = huggingface_hub.InferenceClient(        
         timeout=timeout_in_seconds,
         token=authorization_token,
     )
 
     try:
         generated_text = llm_client.text_generation(
-            model=model_name,            
+            model=modelId,   
+            #model=model_name, 
             prompt=text_with_prefix,  
             max_new_tokens=maximum_tokens,
             do_sample=False,
