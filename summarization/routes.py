@@ -51,7 +51,7 @@ def summarize(request: SummarizationRequest):
         return {"output": "no authorization token provided. contact administrator."}
 
     llm_client = huggingface_hub.InferenceClient(
-        model=model_name,
+        #model=model_name, TR as on 30/09/2025
         timeout=timeout_in_seconds,
         token=authorization_token,
     )
@@ -59,7 +59,8 @@ def summarize(request: SummarizationRequest):
     try:
         generated_text = llm_client.text_generation(
             model=model_name,
-            prompt=text_with_prefix,
+            #prompt=text_with_prefix, TR as on 30/09/2025
+            inputs=text_with_prefix,
             max_new_tokens=maximum_tokens,
             do_sample=False,
             return_full_text=False,
