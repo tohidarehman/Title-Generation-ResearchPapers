@@ -9,3 +9,7 @@
 #To access our contributed dataset, LREC-COLING-2024, specifically for generating titles from research paper abstracts on Hugging Face, you can visit our Hugging Face hub
 1. https://huggingface.co/datasets/TRnlp/LREC-COLING-2024-Abstract-Title
 
+
+#To access our contributed dataset, SpringerSSAT, specifically for generating titles from research paper abstracts on Hugging Face, you can visit our Hugging Face hub
+1. https://huggingface.co/datasets/TRnlp/SpringerSSAT
+
